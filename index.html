@@ -71,7 +71,7 @@
     </div>
     <!-- End.landing -->
     <!-- start.Services -->
-    <div class="Services">
+    <div class="Services" id="services">
       <div class="container">
         <div class="main-heading">
           <h2>Services</h2>
@@ -150,7 +150,7 @@
     </div>
     <!-- End.design.section  -->
     <!-- start.portfolio -->
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
       <div class="main-heading">
         <h2>Portfolio</h2>
         <p>
@@ -244,7 +244,7 @@
     </div>
     <!-- End.portfolio -->
     <!-- start.About -->
-    <div class="about">
+    <div class="about" id="about">
       <div class="container">
         <div class="main-heading">
           <h2>About US</h2>
@@ -361,7 +361,7 @@
     </div>
     <!-- End.qoute -->
     <!-- start.pricing -->
-    <div class="pricing">
+    <div class="pricing" id="pricing">
       <div class="container">
         <div class="main-heading">
           <h2>Pricing</h2>
@@ -462,7 +462,7 @@
     </div>
     <!-- End.Subscribe -->
     <!-- start.contact.us -->
-    <div class="contact-section">
+    <div class="contact" id="contact">
       <div class="container">
         <div class="main-heading">
           <h2>Contact Us</h2>
@@ -471,28 +471,35 @@
             Mauris blandit aliquet elit, eget tincidunt.
           </p>
         </div>
-        <div class="contact-section">
-          <div class="contact-form">
-            <form>
-              <input type="text" placeholder="Your Name" required />
-              <input type="email" placeholder="Your Email" required />
-              <textarea placeholder="Your Message" required></textarea>
-              <button type="submit">SEND MESSAGE</button>
-            </form>
-          </div>
-          <div class="contact-info">
-            <div class="info-block">
-              <h3>GET IN TOUCH</h3>
-              <p>+00 123.456.789</p>
-              <p>+00 123.456.789</p>
-            </div>
-            <div class="info-block-2">
-              <h3>WHERE WE ARE</h3>
-              <p>Awesome Address 17</p>
-              <p>New York, NYC</p>
-              <p>123-4567-890</p>
-              <p>USA</p>
-            </div>
+        <div class="content">
+          <form action="">
+            <input
+              class="main-input"
+              type="text"
+              name="name"
+              placeholder="Your Name"
+            />
+            <input
+              class="main-input"
+              type="email"
+              name="mail"
+              placeholder="Your Email"
+            />
+            <textarea
+              class="main-input"
+              name="message"
+              placeholder="Your Message"
+            ></textarea>
+            <input type="submit" value="Send Message" />
+          </form>
+          <div class="info">
+            <h4>Get In Touch</h4>
+            <span class="phone">+00 123.456.789</span>
+            <span class="phone">+00 123.456.789</span>
+            <h4>Where We Are</h4>
+            <address>
+              Awesome Address 17<br />New York, NYC<br />123-4567-890<br />USA
+            </address>
           </div>
         </div>
       </div>
